@@ -56,7 +56,11 @@ section::before {
     margin-top: 25px;
 }
 
-.about-exp {
+.about p {
+    text-align: justify;
+}
+
+.about-exp-item {
     margin-top: 32px;
 }
 
@@ -68,6 +72,7 @@ section::before {
 
 .about-exp-item-detail {
     display: none;
+    text-align: justify;
 }
 
 @keyframes upDown {
