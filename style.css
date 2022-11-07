@@ -20,6 +20,11 @@ section::before {
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25);
 }
 
+.home {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
 .home h1 {
     font-size: 72px;
 }
@@ -40,7 +45,12 @@ section::before {
 }
 
 .arrow {
-    margin-top: 100px;
+    margin-top: 50px;
+}
+
+
+.home img {
+    width: 100%;
 }
 
 .home .arrow img {
@@ -155,6 +165,23 @@ section::before {
 
 .form-label {
     font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .home {
+        margin-top: 0;
+    }
+
+    .home img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    section::before {
+        font-size: 64px;
+        left: 10px;
+    }
 }
 
 @keyframes upDown {
